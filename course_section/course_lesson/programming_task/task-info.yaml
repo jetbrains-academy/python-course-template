@@ -1,0 +1,18 @@
+type: edu
+custom_name: Course programming task
+files:
+  - name: tests/test.py
+    visible: false
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 183
+        length: 72
+        placeholder_text: pass
+      - offset: 258
+        length: 147
+        placeholder_text: // Write your solution here
+  - name: invisible_main.py
+    visible: false
+  - name: __init__.py
+    visible: false

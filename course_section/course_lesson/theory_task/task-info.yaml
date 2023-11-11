@@ -1,0 +1,9 @@
+type: theory
+custom_name: Course theory task
+files:
+  - name: main.py
+    visible: true
+  - name: invisible_main.py
+    visible: false
+  - name: __init__.py
+    visible: true
