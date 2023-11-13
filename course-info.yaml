@@ -3,6 +3,7 @@ title: JetBrains Academy Python course template
 language: English
 summary: "Here you can put the course description. You can use HTML tags inside the description."
 programming_language: Python
-environment: unittest, pytest
+programming_language_version: 3.9
+environment: unittest
 content:
   - course_section

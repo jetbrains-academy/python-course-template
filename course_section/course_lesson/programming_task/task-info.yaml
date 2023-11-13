@@ -1,8 +1,6 @@
 type: edu
 custom_name: Course programming task
 files:
-  - name: tests/test.py
-    visible: false
   - name: main.py
     visible: true
     placeholders:
@@ -13,6 +11,8 @@ files:
         length: 147
         placeholder_text: // Write your solution here
   - name: invisible_main.py
+    visible: false
+  - name: tests/test.py
     visible: false
   - name: __init__.py
     visible: false

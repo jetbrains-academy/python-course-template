@@ -1,20 +1,20 @@
 type: output
 files:
-  - name: main.py
-    placeholders:
-      - offset: 113
-        length: 28
-        placeholder_text: // Invoke the implemented functions here
-    visible: true
-  - name: task.py
-    placeholders:
-      - offset: 30
-        length: 26
-        placeholder_text: // Write your solution here
-    visible: true
   - name: tests/output.txt
     visible: false
   - name: tests/input.txt
     visible: false
   - name: __init__.py
     visible: true
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 113
+        length: 28
+        placeholder_text: Invoke the implemented functions here
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 30
+        length: 26
+        placeholder_text: // Write your solution here
