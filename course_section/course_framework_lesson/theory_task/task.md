@@ -18,10 +18,10 @@ you can put them into the `common` module:
 
 <div class="hint" title="How to change pictures between themes?">
 
-You can put the picture for the dark theme with the suffix "_dark" together with the initial one. 
+You can put the picture for the dark theme with the suffix "_dark" together with the initial one.
 In such a case, the plugin will use this picture if the user switched the IDE theme to the dark one:
 
 <p align="center">
-    <img src="../../../common/resources/images/theme_example.gif" alt="Logo" width="500"/>
+<img src="../../../common/resources/images/light_dark.gif" alt="Logo" width="500"/>
 </p>
 </div>

@@ -1,4 +1,4 @@
-type: framework
+#type: framework
 custom_name: Course lesson
 content:
   - theory_task

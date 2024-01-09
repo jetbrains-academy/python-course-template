@@ -4,12 +4,9 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 183
-        length: 72
-        placeholder_text: pass
-      - offset: 258
-        length: 147
-        placeholder_text: // Write your solution here
+      - offset: 192
+        length: 68
+        placeholder_text:   pass
   - name: invisible_main.py
     visible: false
   - name: tests/test.py

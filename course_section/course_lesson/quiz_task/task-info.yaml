@@ -12,4 +12,3 @@ files:
   - name: __init__.py
     visible: true
 custom_name: Course quiz task
-local_check: true

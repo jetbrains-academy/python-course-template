@@ -6,5 +6,9 @@ files:
     visible: false
   - name: main.py
     visible: true
+    placeholders:
+      - offset: 193
+        length: 66
+        placeholder_text: pass
   - name: tests/test.py
     visible: false
