@@ -1,4 +1,5 @@
 type: edu
+custom_name: Programming task
 files:
   - name: invisible_main.py
     visible: false
