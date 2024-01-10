@@ -8,7 +8,7 @@
 > Click the <kbd>Use this template</kbd> button and clone it in IntelliJ IDEA.
 
 **JetBrains Academy Python course template** is a repository that provides a
-pure template to make it easier to create a new Java course with the [JetBrains Academy
+pure template to make it easier to create a new Python course with the [JetBrains Academy
 plugin][ref:plugin.marketplace] (check out the [Creating a repository from a template][gh:template] article).
 
 The main goal of this template is to speed up the setup phase
@@ -171,18 +171,14 @@ in [course lesson][file:course.lesson.tests] and [course framework lesson][file:
 
 [docs:intro]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/jetbrains-academy-plugin-faq.html#what_is_the_jetbrains_academy_plugin
 
-[file:gradle.properties]: ./gradle.properties
 [file:course-info.yaml]: ./course-info.yaml
 [file:courseignore]: .courseignore
 [file:course.lesson.tests]: course_section/course_lesson/programming_task/tests/test.py
 [file:course.framework.lesson.tests]: course_section/course_framework_lesson/programming_task/tests/test.py
-
-[gradle]: https://gradle.org
 
 [semver]: https://semver.org
 
 [file:get_from_vcs.png]: common/resources/images/get-from-version-control.png
 [file:course-structure-author]: common/resources/images/course-structure-author.png
 [file:course-structure-student]: common/resources/images/course-structure-student.png
-[file:run-debug-configurations]: common/src/main/resources/images/run-debug-configurations.png
 [file:use-template-blur]: common/resources/images/use_template_blur.jpg

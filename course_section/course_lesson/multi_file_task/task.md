@@ -5,4 +5,4 @@ your own tests.
 This task also demonstrates how you can set up which file should be opened in the student mode if the task has several files.
 You just need to put this file as the first file in the `task-info.yaml` config, e.g. in this task the `task.py` will be opened: 
 
-![Expected behaviour](../../../common/src/main/resources/images/files-order.gif)
+![Expected behaviour](../../../common/resources/images/files-order.gif)
