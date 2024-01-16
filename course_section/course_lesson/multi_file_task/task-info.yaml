@@ -1,0 +1,21 @@
+type: output
+custom_name: Multiple file task
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 34
+        length: 22
+        placeholder_text: pass
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 117
+        length: 24
+        placeholder_text: pass
+  - name: __init__.py
+    visible: true
+  - name: tests/output.txt
+    visible: false
+  - name: tests/input.txt
+    visible: false
