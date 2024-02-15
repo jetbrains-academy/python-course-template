@@ -10,5 +10,5 @@ files:
   - name: main.py
     visible: true
   - name: __init__.py
-    visible: true
+    visible: false
 custom_name: Course quiz task
