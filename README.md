@@ -58,7 +58,7 @@ A generated JetBrains Academy Python Course Template repository contains the fol
 .
 ├── LICENSE
 ├── README.md                      README
-├── requirements.txt               Course depedencies
+├── requirements.txt               Course dependencies
 ├── common                         Course sources common for all sections
 │   └── resources                  Resources - images, icons
 ├── course-info.yaml               Course info configuration file
