@@ -6,4 +6,4 @@ files:
   - name: invisible_main.py
     visible: false
   - name: __init__.py
-    visible: true
+    visible: false

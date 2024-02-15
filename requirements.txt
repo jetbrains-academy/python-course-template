@@ -1,0 +1,2 @@
+# Here you should write the course dependecies
+numpy==1.26.4

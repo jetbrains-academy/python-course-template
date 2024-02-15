@@ -29,6 +29,7 @@ In this README, we will highlight the following elements of template-project cre
 - [Getting started](#getting-started)
 - [Course info configuration file](#course-info-configuration-file)
 - [Course ignore file](#course-ignore-file)
+- [Course dependencies](#course-dependencies)
 - [Sample code](#sample-code)
 - [Testing](#testing)
 - [Useful links](#useful-links)
@@ -44,7 +45,7 @@ All you need to do is click the <kbd>Use this template</kbd> button (you must be
 ![Use this template][file:use-template-blur]
 
 The most convenient way of getting your new project from GitHub is the <kbd>Get from VCS</kbd> action available on the Welcome Screen,
-where you can filter your GitHub  repository by its name.
+where you can filter your GitHub repository by its name.
 
 ![Get from version control][file:get_from_vcs.png]
 
@@ -57,6 +58,7 @@ A generated JetBrains Academy Python Course Template repository contains the fol
 .
 ├── LICENSE
 ├── README.md                      README
+├── requirements.txt               Course dependencies
 ├── common                         Course sources common for all sections
 │   └── resources                  Resources - images, icons
 ├── course-info.yaml               Course info configuration file
@@ -117,9 +119,24 @@ README.md
 You can find more information about the course preview in the [Course preview][ref:course.preview] section. Information
 about creating a course archive and uploading it to the marketplace is in the [Course distribution][ref:course.distribution] section.
 
+## Course dependencies
+You should write all your course dependencies in the [`requirements.txt`](requirements.txt) file. 
+It will be used for creating a virtual environment before students begin the course.
+
+Before developing the course, you should set up the environment yourself:
+* For Windows:
+  ```shell
+  python3 -m venv .venv && .\.venv\Scripts\activate && pip install -r requirements.txt
+  ```
+  
+* For Linux/MacOS:
+  ```bash
+  python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
+  ```
+
 ## Sample code
 
-The prepared template provides an example of a course with one section, two lessons, and five tasks in total.
+The prepared template provides an example of a course with one section, two lessons, and six tasks in total.
 
 ![Course structure in the course creator mode][file:course-structure-author]
 
@@ -127,9 +144,6 @@ Each course may have an unlimited number of sections, lessons, and tasks.
 Students will see almost the same course structure as the educator (course author):
 
 ![Course structure in the course student mode][file:course-structure-student]
-
-The main difference is in framework lessons, which display
-only task files, without intermediate steps.
 
 You can read more about framework lessons in the official documentation in the [Framework Lessons Creation][ref:framework.lessons.creation] section.
 
@@ -144,8 +158,8 @@ You can read more about tasks in the official documentation in the [Task][ref:ta
 
 ## Testing
 
-To check the programming exercises for [**edu**][ref:tasks] tasks, you need to write tests ungin [unittest](https://docs.python.org/3/library/unittest.html) framework.
-
+To check the programming exercises for [**edu**][ref:tasks] tasks, 
+you need to write tests using [unittest](https://docs.python.org/3/library/unittest.html) framework.
 
 You can find little examples of programming tasks in the repository in the `test.py` files:
 in [course lesson][file:course.lesson.tests] and [course framework lesson][file:course.framework.lesson.tests].
