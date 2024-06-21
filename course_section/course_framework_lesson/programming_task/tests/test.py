@@ -2,8 +2,8 @@ import os
 import unittest
 from unittest.mock import patch
 
-from course_section.course_framework_lesson.programming_task.invisible_main import say_bye
-from course_section.course_framework_lesson.programming_task.main import invoke_say_bye
+from invisible_main import say_bye
+from main import invoke_say_bye
 
 
 class TestAddFunction(unittest.TestCase):

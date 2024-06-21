@@ -1,7 +1,7 @@
 # This file will be visible for the student
 import os
 
-from course_section.course_framework_lesson.programming_task.invisible_main import say_bye
+from invisible_main import say_bye
 
 
 def invoke_say_bye(how_many_times: int):
