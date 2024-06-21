@@ -10,7 +10,7 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 117
+      - offset: 72
         length: 24
         placeholder_text: pass
   - name: __init__.py
