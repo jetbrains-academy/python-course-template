@@ -2,8 +2,8 @@ import os
 import unittest
 from unittest.mock import patch
 
-from course_section.course_lesson.programming_task.invisible_main import say_hello
-from course_section.course_lesson.programming_task.main import invoke_say_hello
+from invisible_main import say_hello
+from main import invoke_say_hello
 
 
 class TestAddFunction(unittest.TestCase):

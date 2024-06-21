@@ -1,7 +1,9 @@
 # This file will be visible for the student
-def say_hello() -> str:
+def invoke_say_bye(how_many_times: int):
     pass
 
 
 if __name__ == '__main__':
-    print(say_hello())
+    print("How many times should I print Bye?")
+    how_many_times = int(input())
+    invoke_say_bye(how_many_times)
