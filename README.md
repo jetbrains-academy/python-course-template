@@ -128,7 +128,7 @@ Students will see almost the same course structure as the educator (course autho
 
 ![Course structure in the course student mode][file:course-structure-student]
 
-The main difference is that intermediate steps are shown in the navigational bar inside the task bar. 
+The main difference is in framework lessons, which display only task files, without intermediate steps.
 
 You can read more about guided projects in the official documentation in the [Guided Projects Creation][ref:guided.projects.creation] section.
 
