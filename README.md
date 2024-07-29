@@ -44,7 +44,7 @@ All you need to do is click the <kbd>Use this template</kbd> button (you must be
 ![Use this template][file:use-template-blur]
 
 The most convenient way of getting your new project from GitHub is the <kbd>Get from VCS</kbd> action available on the Welcome Screen,
-where you can filter your GitHub  repository by its name.
+where you can filter your GitHub repository by its name.
 
 ![Get from version control][file:get_from_vcs.png]
 
@@ -61,15 +61,15 @@ A generated JetBrains Academy Python Course Template repository contains the fol
 │   └── resources                  Resources - images, icons
 ├── course-info.yaml               Course info configuration file
 └── course_section                 An example of the course section
-    ├── course_framework_lesson    An example of the course framework lesson
+    ├── course_guided_project      An example of the course guided project
     │   ├── lesson-info.yaml       Lesson config file
-    │   ├── programming_task       Example fo programming task
+    │   ├── programming_task       Example of programming task
     │   │   ├── main.py
     │   │   ├── task-info.yaml     Task info
     │   │   ├── task.md            Task text content
     │   │   └── tests              Task tests
     │   │       └── test.py
-    │   └── theory_task            Example fo theory task
+    │   └── theory_task            Example of theory task
     │       ├── main.py
     │       ├── task-info.yaml
     │       └── task.md
@@ -119,7 +119,7 @@ about creating a course archive and uploading it to the marketplace is in the [C
 
 ## Sample code
 
-The prepared template provides an example of a course with one section, two lessons, and five tasks in total.
+The prepared template provides an example of a course with one section, two lessons (regular and guided), and five tasks in total.
 
 ![Course structure in the course creator mode][file:course-structure-author]
 
@@ -128,10 +128,9 @@ Students will see almost the same course structure as the educator (course autho
 
 ![Course structure in the course student mode][file:course-structure-student]
 
-The main difference is in framework lessons, which display
-only task files, without intermediate steps.
+The main difference is in framework lessons, which display only task files, without intermediate steps.
 
-You can read more about framework lessons in the official documentation in the [Framework Lessons Creation][ref:framework.lessons.creation] section.
+You can read more about guided projects in the official documentation in the [Guided Projects Creation][ref:guided.projects.creation] section.
 
 > **Note**
 >
@@ -139,16 +138,15 @@ You can read more about framework lessons in the official documentation in the [
 
 
 The JetBrains Academy plugin provides five different types of tasks,
-and you can combine them inside one lesson (whether regular or framework).
+and you can combine them inside one lesson (whether regular or guided).
 You can read more about tasks in the official documentation in the [Task][ref:tasks] section.
 
 ## Testing
 
-To check the programming exercises for [**edu**][ref:tasks] tasks, you need to write tests ungin [unittest](https://docs.python.org/3/library/unittest.html) framework.
-
+To check the programming exercises for [**edu**][ref:tasks] tasks, you need to write tests using [unittest](https://docs.python.org/3/library/unittest.html) framework.
 
 You can find little examples of programming tasks in the repository in the `test.py` files:
-in [course lesson][file:course.lesson.tests] and [course framework lesson][file:course.framework.lesson.tests].
+in [course lesson][file:course.lesson.tests] and [course guided project][file:course.guided.project.tests].
 
 ## Useful links
 
@@ -164,17 +162,15 @@ in [course lesson][file:course.lesson.tests] and [course framework lesson][file:
 [ref:plugin.marketplace]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy
 [ref:course.preview]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#preview_course
 [ref:course.distribution]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#course_distribution
-[ref:framework.lessons.creation]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/framework-lessons-guide-for-course-creators.html#a81e8983
+[ref:guided.projects.creation]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/framework-lessons-guide-for-course-creators.html#a81e8983
 [ref:tasks]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/framework-lessons-guide-for-course-creators.html#a81e8983
-[ref:java.reflection.api]: https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/index.html
-[ref:junit5]: https://junit.org/junit5/
 
 [docs:intro]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/jetbrains-academy-plugin-faq.html#what_is_the_jetbrains_academy_plugin
 
 [file:course-info.yaml]: ./course-info.yaml
 [file:courseignore]: .courseignore
 [file:course.lesson.tests]: course_section/course_lesson/programming_task/tests/test.py
-[file:course.framework.lesson.tests]: course_section/course_framework_lesson/programming_task/tests/test.py
+[file:course.guided.project.tests]: course_section/course_guided_project/programming_task/tests/test.py
 
 [semver]: https://semver.org
 
