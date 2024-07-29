@@ -44,7 +44,7 @@ All you need to do is click the <kbd>Use this template</kbd> button (you must be
 ![Use this template][file:use-template-blur]
 
 The most convenient way of getting your new project from GitHub is the <kbd>Get from VCS</kbd> action available on the Welcome Screen,
-where you can filter your GitHub  repository by its name.
+where you can filter your GitHub repository by its name.
 
 ![Get from version control][file:get_from_vcs.png]
 
@@ -164,8 +164,6 @@ in [course lesson][file:course.lesson.tests] and [course guided project][file:co
 [ref:course.distribution]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#course_distribution
 [ref:guided.projects.creation]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/framework-lessons-guide-for-course-creators.html#a81e8983
 [ref:tasks]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/framework-lessons-guide-for-course-creators.html#a81e8983
-[ref:java.reflection.api]: https://docs.oracle.com/javase/8/docs/technotes/guides/reflection/index.html
-[ref:junit5]: https://junit.org/junit5/
 
 [docs:intro]: https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/jetbrains-academy-plugin-faq.html#what_is_the_jetbrains_academy_plugin
 
