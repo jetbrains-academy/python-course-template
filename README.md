@@ -105,18 +105,6 @@ content:
   - course_section
 ```
 
-## Course ignore file
-
-The course ignore file is the [.courseignore][file:courseignore] file located in the root directory.
-It provides the list of files or directories that will be ignored in the final course preview or archive.
-
-```text
-README.md
-```
-
-You can find more information about the course preview in the [Course preview][ref:course.preview] section. Information
-about creating a course archive and uploading it to the marketplace is in the [Course distribution][ref:course.distribution] section.
-
 ## Sample code
 
 The prepared template provides an example of a course with one section, two lessons (regular and guided), and five tasks in total.

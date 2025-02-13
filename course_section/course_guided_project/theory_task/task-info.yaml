@@ -5,5 +5,7 @@ files:
     visible: true
   - name: invisible_main.py
     visible: false
+    propagatable: false
   - name: __init__.py
     visible: false
+    propagatable: false

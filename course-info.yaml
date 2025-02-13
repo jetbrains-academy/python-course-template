@@ -7,3 +7,22 @@ programming_language: Python
 environment: unittest
 content:
   - course_section
+additional_files:
+  - name: common/resources/images/logo.png
+    is_binary: true
+  - name: common/resources/images/logo_dark.png
+    is_binary: true
+  - name: common/resources/images/light_dark.gif
+    is_binary: true
+  - name: common/resources/images/files-order.gif
+    is_binary: true
+  - name: common/resources/images/use_template_blur.jpg
+    is_binary: true
+  - name: common/resources/images/course-structure-author.png
+    is_binary: true
+  - name: common/resources/images/course-structure-student.png
+    is_binary: true
+  - name: common/resources/images/get-from-version-control.png
+    is_binary: true
+  - name: LICENSE
+yaml_version: 2
