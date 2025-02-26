@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyTypeCheckerInspection" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
+    <inspection_tool class="PyUnusedLocalInspection" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="MARKED_FOR_REMOVAL_ATTRIBUTES">
+      <option name="ignoreTupleUnpacking" value="false" />
+      <option name="ignoreLambdaParameters" value="false" />
+      <option name="ignoreLoopIterationVariables" value="false" />
+      <option name="ignoreVariablesStartingWithUnderscore" value="false" />
+    </inspection_tool>
+    <inspection_tool class="unused" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" checkParameterExcludingHierarchy="false" isSelected="true">
+      <option name="LOCAL_VARIABLE" value="true" />
+      <option name="FIELD" value="true" />
+      <option name="METHOD" value="true" />
+      <option name="CLASS" value="true" />
+      <option name="PARAMETER" value="true" />
+      <option name="REPORT_PARAMETER_FOR_PUBLIC_METHODS" value="true" />
+      <option name="ADD_MAINS_TO_ENTRIES" value="true" />
+      <option name="ADD_APPLET_TO_ENTRIES" value="true" />
+      <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
+      <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
+    </inspection_tool>
+  </profile>
+</component>

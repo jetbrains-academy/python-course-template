@@ -25,4 +25,5 @@ additional_files:
   - name: common/resources/images/get-from-version-control.png
     is_binary: true
   - name: LICENSE
+  - name: .idea/inspectionProfiles/Project_Default.xml
 yaml_version: 2
