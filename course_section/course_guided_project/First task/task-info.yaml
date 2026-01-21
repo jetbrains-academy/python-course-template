@@ -1,0 +1,14 @@
+type: edu
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 12
+        placeholder_text: "# implement addition here"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

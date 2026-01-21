@@ -10,21 +10,3 @@ Invisible files can be modified between tasks.
 
 The guided projects also support file synchronization for the creator mode,
 which means that all changes made in some file will be propagated to all files below.
-
-**Note, you need to have the same set of files between all tasks.** 
-Thus, it is the same for the resources folder, and to avoid double-storing of images, 
-you can put them into the `common` module:
-
-<p align="center">
-    <img src="../../../common/resources/images/logo.png" alt="Logo" width="400"/>
-</p>
-
-<div class="hint" title="How to change pictures between themes?">
-
-You can put the picture for the dark theme with the suffix "_dark" together with the initial one.
-In such a case, the plugin will use this picture if the user switched the IDE theme to the dark one:
-
-<p align="center">
-<img src="../../../common/resources/images/light_dark.gif" alt="Logo" width="500"/>
-</p>
-</div>

@@ -5,7 +5,7 @@
 
 > **Note**
 >
-> Click the <kbd>Use this template</kbd> button and clone it in IntelliJ IDEA.
+> Click the <kbd>Use this template</kbd> button and clone it in PyCharm or IntelliJ IDEA.
 
 **JetBrains Academy Python course template** is a repository that provides a
 pure template to make it easier to create a new Python course with the [JetBrains Academy
@@ -16,7 +16,7 @@ of Python course development for both new and experienced educators
 by preconfiguring the project scaffold and CI,
 linking to the proper documentation pages, and keeping everything organized.
 
-If you're still not quite sure what this is all about, read our introduction: [What is the JetBrains Academy plugin?][docs:intro]
+If you need a detailed guide on creating course tasks, please check out [Course creator start guide](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html) page.
 
 > **Note**
 >
@@ -157,7 +157,7 @@ in [course lesson][file:course.lesson.tests] and [course guided project][file:co
 
 [file:course-info.yaml]: ./course-info.yaml
 [file:courseignore]: .courseignore
-[file:course.lesson.tests]: course_section/course_lesson/programming_task/tests/test.py
+[file:course.lesson.tests]: course_section/course_lesson/edu_task/tests/test.py
 [file:course.guided.project.tests]: course_section/course_guided_project/programming_task/tests/test.py
 
 [semver]: https://semver.org
