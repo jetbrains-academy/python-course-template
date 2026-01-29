@@ -1,4 +1,5 @@
 type: edu
+custom_name: First task
 files:
   - name: main.py
     visible: true

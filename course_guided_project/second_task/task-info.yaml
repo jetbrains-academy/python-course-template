@@ -1,4 +1,5 @@
 type: edu
+custom_name: Second task
 files:
   - name: main.py
     visible: true
