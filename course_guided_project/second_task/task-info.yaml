@@ -10,7 +10,7 @@ files:
         dependency:
           section: course_section
           lesson: course_guided_project
-          task: First task
+          task: first_task
           file: main.py
           placeholder: 1
         is_visible: false
