@@ -50,24 +50,24 @@ Learn more about course creation with the JetBrains Academy plugin in the [Cours
 ## Examples of tasks
 We've included example tasks that demonstrate how to create engaging online course content. Feel free to explore each task and its associated files.
 
-### 🔳 Theory task (course_lesson/theory_task/)
+### [Theory task](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#theory_task) (course_lesson/theory_task/)
 Contains a minimal set of the files typically used in a task:
 - Source code file `main.py` (empty for theory tasks).
 - Text displayed in task description: `task.md`.
 - Metadata file for the current task: `task-info.yaml`.
 
-### 🔳 Multiple-choice quiz (course_lesson/quiz_task/)
+### [Multiple-choice quiz](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#multiple_choice_task) (course_lesson/quiz_task/)
 Similar to the theory task, but the `task-info.yaml` file contains answer options.
 
-### 🔳 Task with unit tests (course_lesson/edu_task/)
+### [Task with unit tests](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#edu_task) (course_lesson/edu_task/)
 Includes a test file (`tests/test.py`), which is executed when the `Check` button is clicked.
 The `task-info.yaml` file contains placeholders.
 
-### 🔳 Output testing task (course_lesson/output_task/)
+### [Output testing task](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#output_task) (course_lesson/output_task/)
 Indludes two files: `tests/input.txt` and `tests/output.txt`.
 When the `Check` button is clicked, the program is run with the contents of `tests/input.txt` file as an input.
 The actual output of the program is compared with the expected from the `tests/output.txt` file.
 
-### Course guided project
+### [Course guided project](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/framework-lessons-guide-for-course-creators.html)
 In this lesson you can see a demonstration of a guided project in which tasks are linked together within a lesson
 , and the user's solutions in one step are transferred to the next. 
