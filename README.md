@@ -60,7 +60,7 @@ Contains a minimal set of the files typically used in a task:
 Similar to the theory task, but the `task-info.yaml` file contains answer options.
 
 ### [Task with unit tests](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#edu_task) (course_lesson/edu_task/)
-Includes a test file (`tests/test.py`), which is executed when the `Check` button is clicked.
+Includes a test file (`tests/test.py`), which is executed when the `Check` button is clicked. The [unittest](https://docs.python.org/3/library/unittest.html) testing framework is used.
 The `task-info.yaml` file contains placeholders.
 
 ### [Output testing task](https://plugins.jetbrains.com/plugin/10081-jetbrains-academy/docs/educator-start-guide.html#output_task) (course_lesson/output_task/)
