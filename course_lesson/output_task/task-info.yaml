@@ -1,0 +1,16 @@
+type: output
+custom_name: Output task
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 32
+        placeholder_text: "# get two space-separated numbers from the input"
+      - offset: 68
+        length: 12
+        placeholder_text: "# print their sum on the screen"
+  - name: tests/output.txt
+    visible: false
+  - name: tests/input.txt
+    visible: false

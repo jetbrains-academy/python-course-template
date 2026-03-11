@@ -1,0 +1,5 @@
+type: theory
+custom_name: Theory task
+files:
+  - name: main.py
+    visible: true

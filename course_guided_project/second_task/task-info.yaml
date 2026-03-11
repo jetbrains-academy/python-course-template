@@ -1,0 +1,25 @@
+type: edu
+custom_name: Second task
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 12
+        placeholder_text: "# implement addition here"
+        dependency:
+          section: course_section
+          lesson: course_guided_project
+          task: first_task
+          file: main.py
+          placeholder: 1
+        is_visible: false
+      - offset: 81
+        length: 12
+        placeholder_text: "# implement multiplication here"
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

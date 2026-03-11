@@ -1,0 +1,14 @@
+type: edu
+custom_name: Edu task
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 31
+        length: 12
+        placeholder_text: "# implement addition here"
+  - name: tests/test.py
+    visible: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

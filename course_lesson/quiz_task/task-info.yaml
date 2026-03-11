@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Python
+    is_correct: true
+  - text: С++
+    is_correct: false
+  - text: Kotlin
+    is_correct: false
+message_incorrect: This text will be shown if the user made a mistake.
+files:
+  - name: main.py
+    visible: true
+custom_name: Quiz task
+local_check: true

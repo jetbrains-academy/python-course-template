@@ -1,0 +1,11 @@
+type: theory
+custom_name: Theory task
+files:
+  - name: main.py
+    visible: true
+  - name: academy_logo.png
+    visible: false
+    is_binary: true
+  - name: academy_logo_dark.png
+    visible: false
+    is_binary: true
