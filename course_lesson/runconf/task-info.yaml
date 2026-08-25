@@ -1,0 +1,10 @@
+type: theory
+custom_name: Custom run configuration
+files:
+  - name: task.py
+    visible: true
+  - name: runfile.py
+    visible: false
+  - name: runConfigurations/runner.run.xml
+    visible: false
+    propagatable: false

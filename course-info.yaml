@@ -11,4 +11,4 @@ content:
 additional_files:
   - name: LICENSE
   - name: requirements.txt
-yaml_version: 5
+yaml_version: 6
